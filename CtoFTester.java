@@ -1,13 +1,23 @@
-public boolean CtoFTester(int a, boolean b){
+import java.util.Scanner;
 
+public boolean CtoFTester(int a, int b){
+  System.out.println("enter 0 for C-to-F \n enter 1 for F-to-C");
+  Scanner b = new Scanner (System.in);
+  long a;
+  if (b == 0);
+    System.out.println (celsiusToFahrenheit(a));
+  else
+    System.out.println (fahrenheitToCelsius(a));
 }
 
-public int celsiusToFahrenheit(int tempF){
-
+public int celsiusToFahrenheit(int tempC){
+  long tempC = 0.0;
+  return tempC = tempC * 1.8 + 32;
 }
 
-public int fahrenheitToCelsius(int tempC){
-
+public int fahrenheitToCelsius(int tempF){
+  long tempF = 0.0;
+  return tempF = (tempF - 32) / 1.8
 }
 
 
